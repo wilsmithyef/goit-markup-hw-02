@@ -17,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    
   </head>
 
   <body>
@@ -25,42 +24,44 @@
     <header>
       <nav>
         <!--logo-->
-        <a href="">WebStudio</a>
+        <a class="logo" href="">WebStudio</a>
         <!--menu-->
-        <ul>
-          <li><a class="link" href="./index.html">Estudio</a></li>
-          <li><a class="link" href="./portfolio.html">Portafolio</a></li>
-          <li><a class="link" href="./index.html">Contactos</a></li>
+        <ul class="menu">
+          <li><a href="./index.html" class="studio" id="active">Estudio</a></li>
+          <li><a href="./portfolio.html" class="portfolio">Portafolio</a></li>
+          <li><a href="./index.html" class="contacts">Contactos</a></li>
         </ul>
       </nav>
       <!--contacts-->
-      <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+52 55 5529 6000</a></li>
+      <ul class="contacts">
+        <li><a href="#" class="email">info@devstudio.com</a></li>
+        <li><a href="#" class="phone">+52 55 5529 6000</a></li>
       </ul>
     </header>
 
     <!--main content section-->
     <main>
       <!--Hero section-->
-      <section>
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button">Solicite nuestro servicio</button>
+      <section class="hero-bg-hero">
+        <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        <button class="button-primari" type="button">
+          Solicite nuestro servicio
+        </button>
       </section>
       <!--Benefits section-->
-      <section>
+      <section class="section">
         <ul>
           <li>
-            <h3>ATENCIÓN A LOS DETALLES</h3>
-            <p>
+            <h3 class="title-h3">ATENCIÓN A LOS DETALLES</h3>
+            <p class="description">
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
           </li>
 
           <li>
-            <h3>PUNTUALIDAD</h3>
-            <p>
+            <h3 class="title-h3">PUNTUALIDAD</h3>
+            <p class="description">
               Con nosotros, usted puede sentirse seguro y protegido. Un
               principio importante de la empresa: respetar su tiempo y respetar
               los plazos acordados.
@@ -68,16 +69,16 @@
           </li>
 
           <li>
-            <h3>PLANIFICACIÓN</h3>
-            <p>
+            <h3 class="title-h3">PLANIFICACIÓN</h3>
+            <p class="description">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
 
           <li>
-            <h3>TECNOLOGÍA MODERNA</h3>
-            <p>
+            <h3 class="title-h3">TECNOLOGÍA MODERNA</h3>
+            <p class="description">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales.
             </p>
@@ -86,7 +87,7 @@
       </section>
 
       <section>
-        <h2>A qué nos dedicamos</h2>
+        <h2 class="section-h2-what">A qué nos dedicamos</h2>
         <!--images-->
         <ul>
           <li>
@@ -105,53 +106,61 @@
 
       <!--Our team-->
       <section>
-        <h2>Nuestro Equipo</h2>
+        <h2 class="our-team">Nuestro Equipo</h2>
         <!--cards-->
         <ul>
           <li>
             <img src="./images/team1.jpg" alt="first member" width="270" />
-            <h3>Andrés Cubo</h3>
-            <p>Diseñador de Productos</p>
+            <h3 class="who-name">Andrés Cubo</h3>
+            <p class="area">Diseñador de Productos</p>
           </li>
 
           <li>
             <img src="./imageS/team2.jpg" alt="second member" width="270" />
-            <h3>Carla Palacios</h3>
-            <p>Desarrolladora Frontend</p>
+            <h3 class="who-name">Carla Palacios</h3>
+            <p class="area">Desarrolladora Frontend</p>
           </li>
 
           <li>
             <img src="./images/team3.jpg" alt="third member" width="270" />
-            <h3>Mario Dorado</h3>
-            <p>Marketing</p>
+            <h3 class="who-name">Mario Dorado</h3>
+            <p class="area">Marketing</p>
           </li>
 
           <li>
             <img src="./images/team4.jpg" alt="fourth member" width="270" />
-            <h3>Pablo Mijangos</h3>
-            <p>Diseñador IU</p>
+            <h3 class="who-name">Pablo Mijangos</h3>
+            <p class="area">Diseñador IU</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <a href="">WebStudio</a>
+      <a class="footer-logo" href="">WebStudio</a>
 
       <address>
         <ul>
           <li>
-            <a href="#" target="_blank" rel="noopenner noreferrer"
+            <a
+              class="footer-direction"
+              href="#"
+              target="_blank"
+              rel="noopenner noreferrer"
               >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
             >
           </li>
 
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-email" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
 
           <li>
-            <a href="tel:+525555296000 ">+52 55 5529 6000</a>
+            <a class="footer-phone" href="tel:+525555296000 "
+              >+52 55 5529 6000</a
+            >
           </li>
         </ul>
       </address>

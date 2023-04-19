@@ -17,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
   </head>
   <!--portfolio section-->
   <body>
@@ -25,33 +24,34 @@
     <header>
       <nav>
         <!--logo-->
-        <a href="./index.html">WebStudio</a>
+        <a class="logo" href="./index.html">WebStudio</a>
         <!--menu-->
-        <ul class="menu header">
-          <li><a class="link" href="./index.html">Estudio</a></li>
-          <li><a class="link" href="./index.html">Portafolio</a></li>
-          <li><a class="link" href="./index.html">Contacto</a></li>
+        <ul class="menu">
+          <li><a href="./index.html" class="studio">Estudio</a></li>
+          <li>
+            <a href="./index.html" class="portfolio" id="active">Portafolio</a>
+          </li>
+          <li><a href="./index.html" class="contacts">Contactos</a></li>
         </ul>
       </nav>
       <!--contacts-->
-      <ul>
-        <li><a href="#">info@devstudio.com</a></li>
-        <li><a href="#">+52 55 5529 6000</a></li>
+      <ul class="contacts">
+        <li><a href="#" class="email">info@devstudio.com</a></li>
+        <li><a href="#" class="phone">+52 55 5529 6000</a></li>
       </ul>
     </header>
     <main>
       <section>
-        <h1>Portafolio</h1>
-        <!--menu tabs-->
+        <!--Portfolio-->
         <ul>
-          <li><button class="button current" type="button">All</button></li>
+          <li><button class="button" type="button">All</button></li>
           <li><button class="button" type="button">web-sites</button></li>
           <li><button class="button" type="button">App</button></li>
           <li><button class="button" type="button">Design</button></li>
           <li><button class="button" type="button">Marketing</button></li>
         </ul>
 
-        <!--caerd list-->
+        <!--card list-->
         <ul class="list">
           <li>
             <a href="#" class="link">
@@ -60,7 +60,7 @@
                 alt="TecnoCrack Website"
                 width="370"
               />
-              <h2 class="portfolio-title">TecnoCrack</h2>
+              <h2 class="portfolio-title">Tecnoduck</h2>
               <p class="portfolio-text">Sitio Web</p>
             </a>
           </li>
@@ -165,22 +165,30 @@
     </main>
 
     <footer>
-      <a href="">WebStudio</a>
+      <a class="footer-logo" href="">WebStudio</a>
 
       <address>
         <ul>
           <li>
-            <a href="#" target="_blank" rel="noopenner noreferrer"
+            <a
+              class="footer-direction"
+              href="#"
+              target="_blank"
+              rel="noopenner noreferrer"
               >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
             >
           </li>
 
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-email" href="mailto:info@example.com"
+              >info@example.com</a
+            >
           </li>
 
           <li>
-            <a href="tel:+525555296000 ">+52 55 5529 6000</a>
+            <a class="footer-phone" href="tel:+525555296000 "
+              >+52 55 5529 6000</a
+            >
           </li>
         </ul>
       </address>
